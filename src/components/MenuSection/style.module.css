@@ -1,0 +1,25 @@
+.pizzaSection{
+    padding: clamp(1.75rem, 6vw, 2.5rem) 0;
+}
+
+.pizzaSection h2{
+    margin-bottom: clamp(1.75rem, 6vw, 2.875rem);
+}
+
+.pizzaList{
+    display: grid;
+    gap: 3.75rem;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 580px){
+    .pizzaList{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 930px){
+    .pizzaList{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

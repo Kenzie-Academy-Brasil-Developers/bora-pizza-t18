@@ -1,0 +1,4 @@
+.titleSection{
+    padding: clamp(1.5rem, 5vw ,2.375rem) 0;
+    background: var(--color-orange);
+}
